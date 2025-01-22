@@ -2,11 +2,12 @@ import React from "react";
 
 const Header = () => {
   return (
+    
     <header className="bg-white shadow-md">
       <div className="container mx-auto px-4 flex justify-between items-center py-4">
         {/* 로고 */}
         <div className="font-bold text-xl">
-          <a href="/">KREAM</a>
+          <a href="/">PLYN</a>
         </div>
 
         {/* 메뉴 */}

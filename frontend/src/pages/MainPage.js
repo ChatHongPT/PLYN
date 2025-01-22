@@ -1,6 +1,6 @@
 import React from "react";
 import TopBar from "../components/common/Topbar"; // 상단바 컴포넌트
-import Header from "../components/common/Header"; // Header 컴포넌트
+import Header from "../components/common/header"; // Header 컴포넌트
 import Footer from "../components/common/Footer"; // Footer 컴포넌트
 import Slider from "../components/common/Slider"; // Slider 컴포넌트
 
