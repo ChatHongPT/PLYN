@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 
 const Slider = () => {
   const slides = [
@@ -27,16 +27,21 @@ const Slider = () => {
 
   const [currentSlide, setCurrentSlide] = useState(0);
 
+  // 자동 슬라이드 기능 추가
+  useEffect(() => {
+    const slideInterval = setInterval(() => {
+      setCurrentSlide((prev) => (prev === slides.length - 1 ? 0 : prev + 1));
+    }, 3000); // 3000ms (3초) 간격으로 슬라이드 변경
+
+    return () => clearInterval(slideInterval); // 컴포넌트가 언마운트될 때 interval 제거
+  }, [slides.length]);
+
   const handlePrevSlide = () => {
-    setCurrentSlide((prev) =>
-      prev === 0 ? slides.length - 1 : prev - 1
-    );
+    setCurrentSlide((prev) => (prev === 0 ? slides.length - 1 : prev - 1));
   };
 
   const handleNextSlide = () => {
-    setCurrentSlide((prev) =>
-      prev === slides.length - 1 ? 0 : prev + 1
-    );
+    setCurrentSlide((prev) => (prev === slides.length - 1 ? 0 : prev + 1));
   };
 
   return (
@@ -79,9 +84,7 @@ const Slider = () => {
             key={index}
             onClick={() => setCurrentSlide(index)}
             className={`w-3 h-3 rounded-full ${
-              index === currentSlide
-                ? "bg-white"
-                : "bg-gray-400"
+              index === currentSlide ? "bg-white" : "bg-gray-400"
             } transition`}
           ></button>
         ))}
