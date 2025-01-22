@@ -2,6 +2,10 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import MainPage from "./pages/MainPage";
 import LoginPage from "./pages/LoginPage";
+import SignUpPage from "./pages/SignUpPage";
+import EmailPage from "./pages/EmailPage";
+import PwdPage from "./pages/PwdPage";
+
 
 function App() {
   return (
@@ -11,6 +15,9 @@ function App() {
           <Routes>
             <Route path="/" element={<MainPage />} />
             <Route path="/login" element={<LoginPage />} />
+            <Route path="/signup" element={<SignUpPage />} />
+            <Route path="/find-email" element={<EmailPage />} />
+            <Route path="/reset-password" element={<PwdPage />} />
           </Routes>
         </main>
       </div>

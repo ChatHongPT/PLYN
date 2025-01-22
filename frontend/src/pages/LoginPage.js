@@ -22,7 +22,7 @@ const Login = () => {
         {/* 로고 및 문구 */}
         <div className="text-center mb-6">
           <h1 className="text-3xl font-bold">PLYN</h1>
-          <p className="text-sm text-gray-500">KICKS RULE EVERYTHING AROUND ME</p>
+          <p className="text-sm text-gray-500">PLYN RULE EVERYTHING AROUND ME</p>
         </div>
 
         <form className="space-y-6">
@@ -37,7 +37,7 @@ const Login = () => {
             <input
               type="email"
               id="email"
-              placeholder="kream@kream.co.kr"
+              placeholder="plyn@plyn.co.kr"
               className="w-full mt-1 border-b border-gray-300 focus:border-black focus:outline-none py-2 placeholder-gray-400"
             />
           </div>
@@ -87,7 +87,7 @@ const Login = () => {
             className="w-full flex items-center justify-center py-3 border rounded-lg text-sm font-medium text-gray-700 hover:bg-gray-100"
           >
             <img
-              src="/images/naver-logo.png"
+              src="/images/naver_logo.png"
               alt="Naver"
               className="h-5 mr-2"
             />
@@ -98,7 +98,7 @@ const Login = () => {
             className="w-full flex items-center justify-center py-3 border rounded-lg text-sm font-medium text-gray-700 hover:bg-gray-100"
           >
             <img
-              src="/images/apple-logo.png"
+              src="/images/apple_logo.png"
               alt="Apple"
               className="h-5 mr-2"
             />
