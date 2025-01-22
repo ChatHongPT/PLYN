@@ -5,7 +5,7 @@ import LoginPage from "./pages/LoginPage";
 import SignUpPage from "./pages/SignUpPage";
 import EmailPage from "./pages/EmailPage";
 import PwdPage from "./pages/PwdPage";
-
+import StylePage from "./pages/StylePage"
 
 function App() {
   return (
@@ -18,6 +18,7 @@ function App() {
             <Route path="/signup" element={<SignUpPage />} />
             <Route path="/find-email" element={<EmailPage />} />
             <Route path="/reset-password" element={<PwdPage />} />
+            <Route path="/style" element={<StylePage />} />
           </Routes>
         </main>
       </div>
