@@ -21,7 +21,7 @@ const Login = () => {
       <div className="w-full max-w-md mt-4 bg-white p-8 rounded-lg shadow">
         {/* 로고 및 문구 */}
         <div className="text-center mb-6">
-          <h1 className="text-3xl font-bold">KREAM</h1>
+          <h1 className="text-3xl font-bold">PLYN</h1>
           <p className="text-sm text-gray-500">KICKS RULE EVERYTHING AROUND ME</p>
         </div>
 
