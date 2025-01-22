@@ -15,5 +15,10 @@ code {
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* FontAwesome */
 @import "@fortawesome/fontawesome-free/css/all.css";
 
+/* Slick Carousel */
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
