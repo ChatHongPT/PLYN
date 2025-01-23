@@ -8,7 +8,8 @@ import PwdPage from "./pages/common/PwdPage";
 import StylePage from "./pages/customer/StylePage";
 import SearchPage from "./pages/customer/SearchPage";
 import ShopPage from "./pages/customer/ShopPage";
-import AdminPage from "./pages/admin/AdminPage"; // 중복 제거
+import AdminPage from "./pages/admin/AdminPage";
+import PrivateAdminRoute from "./components/PrivateAdminRoute"; // PrivateAdminRoute 추가
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <div className="App flex flex-col min-h-screen">
         <main className="flex-grow">
           <Routes>
+            {/* 일반 사용자 경로 */}
             <Route path="/*" element={<CustomerPage />} />
             <Route path="/login" element={<LoginPage />} />
             <Route path="/signup" element={<SignUpPage />} />
@@ -24,7 +26,16 @@ function App() {
             <Route path="/style" element={<StylePage />} />
             <Route path="/search" element={<SearchPage />} />
             <Route path="/shop" element={<ShopPage />} />
-            <Route path="/admin/*" element={<AdminPage />} />
+
+            {/* 관리자 경로 - PrivateAdminRoute로 보호 */}
+            <Route
+              path="/admin/*"
+              element={
+                <PrivateAdminRoute>
+                  <AdminPage />
+                </PrivateAdminRoute>
+              }
+            />
           </Routes>
         </main>
       </div>

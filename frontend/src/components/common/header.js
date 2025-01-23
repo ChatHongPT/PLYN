@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -22,15 +23,15 @@ const Header = () => {
             SHOP
           </a>
 
-          {/* 검색 아이콘 */}
-          <button className="text-gray-600 hover:text-gray-800">
-            <i className="fas fa-search"></i>
-          </button>
+         {/* 검색 아이콘 */}
+        <Link to="/search" className="text-gray-600 hover:text-gray-800">
+        <i className="fas fa-search"></i>
+        </Link>
 
-          {/* 장바구니 아이콘 */}
-          <button className="text-gray-600 hover:text-gray-800">
-            <i className="fas fa-shopping-cart"></i>
-          </button>
+        {/* 장바구니 아이콘 */}
+        <Link to="/cart" className="text-gray-600 hover:text-gray-800">
+        <i className="fas fa-shopping-cart"></i>
+        </Link>
         </nav>
       </div>
     </header>

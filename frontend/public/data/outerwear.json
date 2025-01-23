@@ -1,0 +1,17 @@
+[
+    {
+      "id": 1,
+      "name": "패딩 체크도",
+      "description": "겨울 필수 아이템, 따뜻한 패딩",
+      "price": "120,000원",
+      "image": "/images/outerwear1.png"
+    },
+    {
+      "id": 2,
+      "name": "롱패딩",
+      "description": "롱패딩으로 겨울을 따뜻하게",
+      "price": "150,000원",
+      "image": "/images/outerwear2.png"
+    }
+  ]
+  

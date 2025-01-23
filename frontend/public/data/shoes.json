@@ -1,0 +1,16 @@
+[
+    {
+      "id": 1,
+      "name": "Nike Air Zoom",
+      "description": "편안한 러닝화",
+      "price": "99,000원",
+      "image": "/images/shoes1.png"
+    },
+    {
+      "id": 2,
+      "name": "Adidas UltraBoost",
+      "description": "최고의 쿠셔닝",
+      "price": "180,000원",
+      "image": "/images/shoes2.png"
+    }
+  ]

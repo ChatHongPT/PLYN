@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "name": "New Balance Hoodie",
+    "brand": "New Balance",
+    "price": "120,000원",
+    "category": "상의",
+    "image": "/images/clothing1.png"
+  },
+  {
+    "id": 2,
+    "name": "Nike Jacket",
+    "brand": "Nike",
+    "price": "150,000원",
+    "category": "아우터",
+    "image": "/images/clothing2.png"
+  }
+]

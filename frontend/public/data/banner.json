@@ -1,0 +1,48 @@
+[
+    {
+      "id": 1,
+      "name": "아식스",
+      "image": "/images/asics.png"
+    },
+    {
+      "id": 2,
+      "name": "살로몬",
+      "image": "/images/salomon.png"
+    },
+    {
+      "id": 3,
+      "name": "뉴발란스",
+      "image": "/images/newbalance.png"
+    },
+    {
+      "id": 4,
+      "name": "베이프",
+      "image": "/images/bape.png"
+    },
+    {
+      "id": 5,
+      "name": "스투시",
+      "image": "/images/stussy.png"
+    },
+    {
+      "id": 6,
+      "name": "슈프림",
+      "image": "/images/supreme.png"
+    },
+    {
+      "id": 7,
+      "name": "노스페이스",
+      "image": "/images/thenorthface.png"
+    },
+    {
+      "id": 8,
+      "name": "아크테릭스",
+      "image": "/images/arcteryx.png"
+    },
+    {
+      "id": 9,
+      "name": "인기 후드집업",
+      "image": "/images/hoodie.png"
+    }
+  ]
+  

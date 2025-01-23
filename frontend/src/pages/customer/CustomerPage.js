@@ -1,10 +1,10 @@
 import React from "react";
 import ReactSlickSlider from "react-slick"; // Rename react-slick to avoid conflict
-import TopBar from "../components/common/Topbar";
-import Header from "../components/common/header";
-import Footer from "../components/common/Footer";
-import CustomSlider from "../components/common/Slider"; // Rename to avoid conflict
-import NavigationBar from "../components/common/NavigationBar";
+import TopBar from "../../components/common/Topbar";
+import Header from "../../components/common/header";
+import Footer from "../../components/common/Footer";
+import CustomSlider from "../../components/common/Slider"; // Rename to avoid conflict
+import NavigationBar from "../../components/common/NavigationBar";
 
 const MainPage = () => {
   const categories = [
